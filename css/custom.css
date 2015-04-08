@@ -1,0 +1,77 @@
+body, html, main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+ 
+main {
+  font-family: 'Poiret One', cursive;
+}
+
+.cd-bg-1 {
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+#main-title, #name {
+  position: relative;
+  top: 300px;
+  color: rgba(0,0,0,0.6);
+  font-weight: bold;
+}
+
+#main-title {
+  font-size: 4em;
+}
+
+#name {
+  font-size: 2em;
+}
+
+#about-me {
+  font-size: 4em;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  text-transform: uppercase;
+  width: 50%;
+}
+ 
+.about-me-blurb {
+  position: relative;
+  top: 50px;
+  left: 20px;
+  width: 90%;
+}
+
+/**************************Parallax Scrolling Here***************************/
+.cd-fixed-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../img/cd-background-3.jpeg");
+}
+
+.cd-color-2 {
+  background-image: url("http://www.meh.ro/wp-content/uploads/2013/05/meh.ro11290.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/cd-background-2.jpeg");
+}
+ 
+.cd-scrolling-bg {
+  min-height: 100%;
+}
